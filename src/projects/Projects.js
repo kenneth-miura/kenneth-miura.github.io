@@ -1,8 +1,10 @@
 import React from 'react';
 
-export default () => {
+const Projects = () => {
   return (<div>
     Projects
   </div>)
 
 }
+
+export default Projects;

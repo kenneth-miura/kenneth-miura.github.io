@@ -1,9 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import "./SideNav.css";
 
 const SideNav = () => {
   return (
-    <div>
+    <div className="side-nav-container">
       <li>
         <Link to="/"> Home</Link>
       </li>
@@ -13,6 +17,18 @@ const SideNav = () => {
       <li>
         <Link to="/projects">Projects</Link>
       </li>
+      <div className='horiz-container'>
+        <a className="logo" href='https://www.linkedin.com/in/kenneth-miura/'>
+          <FontAwesomeIcon icon={faLinkedin}/>
+        </a>
+        <a className="logo" href='https://github.com/kenneth-miura'>
+          <FontAwesomeIcon icon={faGithub}/>
+        </a>
+        <a className="logo" href="mailto:kenneth.t.miura@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope}/>
+        </a>
+
+      </div>
     </div>
   )
 }

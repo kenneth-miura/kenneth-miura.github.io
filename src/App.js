@@ -8,12 +8,14 @@ import Projects from './projects/Projects';
 function App() {
   return (
    <Router>
-     <SideNav/>
-     <Routes>
-       <Route path='/' exact element={<Home/>}/>
-       <Route path="/projects" element={<Projects/>}/>
-       <Route path="/experience" element={<Experience/>}/>
-     </Routes>
+    <div className="horiz-container">
+      <SideNav/>
+      <Routes>
+        <Route path='/' exact element={<Home/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/experience" element={<Experience/>}/>
+      </Routes>
+    </div>
    </Router>
   );
 }
