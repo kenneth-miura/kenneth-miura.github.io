@@ -19,13 +19,13 @@ const SideNav = () => {
       </li>
       <div className='horiz-container'>
         <a className="logo" href='https://www.linkedin.com/in/kenneth-miura/'>
-          <FontAwesomeIcon icon={faLinkedin}/>
+          <FontAwesomeIcon icon={faLinkedin} size='2x'/>
         </a>
         <a className="logo" href='https://github.com/kenneth-miura'>
-          <FontAwesomeIcon icon={faGithub}/>
+          <FontAwesomeIcon icon={faGithub} size='2x'/>
         </a>
         <a className="logo" href="mailto:kenneth.t.miura@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope}/>
+          <FontAwesomeIcon icon={faEnvelope} size='2x'/>
         </a>
 
       </div>
