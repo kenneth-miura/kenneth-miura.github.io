@@ -1,0 +1,11 @@
+{
+  "Intelligent Automation, Inc":{
+    "picture-location": "/imgs/IAI_Placeholder.png",
+    "link": "https://www.i-a-i.com/",
+    "title": "Intern",
+    "location": "Rockville, MD, USA",
+    "date":"06/2020 - 08/2020",
+    "blurb": "I worked at Intelligent Automation, Inc as a Software Intern in the Robotics and Electromechanical Systems department, where I worked on Computer Vision algorithms ",
+    "tags": ["python", "opencv"]
+  }
+}

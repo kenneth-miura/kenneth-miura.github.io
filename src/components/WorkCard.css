@@ -1,4 +1,15 @@
 
+img {
+  width: 654px;
+  height:368px;
+}
+
+img:hover {
+  -webkit-box-shadow: 0px 0px 15px 5px #A0A0A0;
+  box-shadow: 0px 0px 15px 2px #A0A0A0;
+  transition: all 0.4s ease;
+}
+
 .work-card-content-container{
     display: flex;
     flex-direction: column;
@@ -16,17 +27,34 @@
   padding: 5px 8px 5px 8px;
   background-color: #a0dbe2;
   border-radius: 10px;
+  margin-right: 5px;
 }
 
 hr {
   border: 1px solid gray;
-  width: 60%
+  width: 100%
 }
 
 .blurb {
   color: gray;
 }
 
-.h4 {
-  margin-bottom: 4px;
+.work-info {
+  margin: 0 5px 0 5px;
+
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+
+p {
+  word-break: normal;
+  max-width: 400px;
 }
