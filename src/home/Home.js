@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./Home.css";
 
 const Home = () => {
-  return (<div className="home-page-container">
+  return (<div className="content-container">
     <div className="vert-container">
 
     <h1> Kenneth Miura</h1>

@@ -1,0 +1,32 @@
+
+.work-card-content-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: baseline;
+}
+
+.work-card-content-container > p {
+  margin: 2px;
+}
+
+.tag {
+  border:none;
+  font-weight: 700;
+  padding: 5px 8px 5px 8px;
+  background-color: #a0dbe2;
+  border-radius: 10px;
+}
+
+hr {
+  border: 1px solid gray;
+  width: 60%
+}
+
+.blurb {
+  color: gray;
+}
+
+.h4 {
+  margin-bottom: 4px;
+}

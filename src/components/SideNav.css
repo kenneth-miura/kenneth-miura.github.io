@@ -3,7 +3,7 @@
 .side-nav-container {
   width: 20%;
   height:100vh;
-  background-color:#c9bdb2;
+  background-color: #FCEFE4;
 
 }
 
@@ -12,8 +12,4 @@ a {
   color: black;
 }
 
-li{
-  font-size: x-large;
-  margin-bottom: 5px;
-}
 
