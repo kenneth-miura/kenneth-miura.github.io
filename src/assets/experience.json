@@ -1,11 +1,53 @@
 {
-  "Intelligent Automation, Inc":{
+  "University of Toronto, Department of Computer Science SDS": {
+    "picture-location": "/imgs/Courseography.png",
+    "link": "https://courseography.teach.cs.toronto.edu/graph",
+    "title": "Open Source Developer",
+    "location": "Toronto, ON, USA",
+    "date":"04/2021 - 08/2021",
+    "blurb": " SDS",
+    "tags": ["React.js", "Javascript"]
+  },
+  "University of Toronto Blueprint":{
+    "picture-location": "/imgs/blueprint.png",
+    "link": "https://uoftblueprint.org/",
+    "title": "Open Source Developer",
+    "date": "10/2021 - Present",
+    "blurb": "BP",
+    "tags": ["React Native", "iOS"]
+  },
+  "You're Next Career Network":{
+    "picture-location": "/imgs/yncn.png",
+    "link": "https://yourenext.ca/",
+    "title": "Software Developer",
+    "date": "04/2021 - Present",
+    "blurb": "YNCN",
+    "tags": ["Javascript", "React.js", "Flask", "Python", "AWS Lambda", "iOS"]
+  },
+  "University of Toronto Machine Intelligence Student Team":{
+    "picture-location": "/imgs/utmist.png",
+    "link": "https://nst-cnn.herokuapp.com/",
+    "title": "Developer",
+    "date": "09/2020 - 04/2021",
+    "blurb": "UTMIST",
+    "tags": ["Flask", "Python", "ML"]
+  },
+  "Intelligent Automation, Inc Second":{
     "picture-location": "/imgs/IAI_Placeholder.png",
     "link": "https://www.i-a-i.com/",
-    "title": "Intern",
+    "title": "Software Developer Intern",
     "location": "Rockville, MD, USA",
     "date":"06/2020 - 08/2020",
     "blurb": "I worked at Intelligent Automation, Inc as a Software Intern in the Robotics and Electromechanical Systems department, where I worked on Computer Vision algorithms ",
+    "tags": ["python", "opencv"]
+  },
+  "Intelligent Automation, Inc First":{
+    "picture-location": "/imgs/IAI_Placeholder.png",
+    "link": "https://www.i-a-i.com/",
+    "title": "Software Developer Intern",
+    "location": "Rockville, MD, USA",
+    "date":"06/2019 - 08/2019",
+    "blurb": "First one ",
     "tags": ["python", "opencv"]
   }
 }

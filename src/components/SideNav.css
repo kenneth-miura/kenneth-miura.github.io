@@ -3,13 +3,24 @@
 .side-nav-container {
   width: 20%;
   height:100vh;
-  background-color: #FCEFE4;
+  background-color:#333333;
+  overflow-y: scroll;
 
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-family: Source Sans Pro,Roboto,Open Sans,Liberation Sans,DejaVu Sans,Verdana,Helvetica,Arial,sans-serif;
+}
+
+.logo {
+  color: white;
+}
+.side-nav-container li {
+  list-style-type: none;
+  font-size: x-large;
+  margin-bottom: 5px;
 }
 
 

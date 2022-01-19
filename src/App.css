@@ -16,14 +16,10 @@
   color:black;
   /* background-color: #FCEFE4; */
   background-color: white;
+  overflow-y: scroll;
 
 }
 
-.side-nav-container li {
-  list-style-type: none;
-  font-size: x-large;
-  margin-bottom: 5px;
-}
 
 .start-aligned-flex {
   align-items: baseline;

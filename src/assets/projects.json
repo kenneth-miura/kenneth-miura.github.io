@@ -1,0 +1,32 @@
+{
+  "MooNote": {
+    "picture-location": "/imgs/moonote.png",
+    "link": "https://github.com/moonote-team/moonote",
+    "bullets":["Java Android journaling app that provides NLP based insights via requests to Google Cloud NLP API", "custom UI based on Figma design", "Personally developed screen for creating, reading and editing journal entries"],
+    "tags": ["Java", "Android", "Google Cloud NLP"],
+    "image-type": "mobile"
+  },
+  "Pomodoro Activity Tracker": {
+    "picture-location": "/imgs/pomodoro.png",
+    "link": "https://github.com/kenneth-miura/PomodoroTimer",
+    "bullets": ["React and Flask full-stack Web App that allows users to run a Pomodoro Timer and track metrics for each session", "Stores tracked metrics after each Pomodoro Session via requests to Flask API which used MySQL", "Visualizes tracked metrics by week recorded or activity name using Recharts"],
+    "tags": ["Python", "Javascript", "Java", "React", "Flask", "MySQL" ],
+    "image-type": "desktop"
+   },
+   "Course Scheduler":{
+     "picture-location":"/imgs/CourseScheduler.png",
+     "link": "https://github.com/kenneth-miura/course-project-tut0201-007",
+     "bullets":["Java CLI app that allos users to generate and save generated schedules based on user criteria and requested courses"],
+     "tags": ["Java"],
+     "image-type": "desktop"
+   },
+
+   "AO3Reader":{
+     "picture-location":"/imgs/ao3reader.png",
+     "link": "https://github.com/kenneth-miura/AO3-Reader",
+     "bullets": ["Java Android App that allows users to browse, download, and read user-made stories"],
+     "tags": ["Java", "Android"],
+     "image-type": "mobile"
+   }
+
+}

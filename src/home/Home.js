@@ -12,13 +12,13 @@ const Home = () => {
     <h2>Computer Science Student | Full Stack & Mobile Dev</h2>
     <div className="horiz-container">
       <a className="hoverable-logo" href='https://www.linkedin.com/in/kenneth-miura/'>
-        <FontAwesomeIcon icon={faLinkedin} size="4x" />
+        <FontAwesomeIcon icon={faLinkedin} size="4x" color="gray"/>
       </a>
       <a className="hoverable-logo" href='https://github.com/kenneth-miura'>
-        <FontAwesomeIcon icon={faGithub} size="4x"/>
+        <FontAwesomeIcon icon={faGithub} size="4x" color="gray"/>
       </a>
       <a className="hoverable-logo" href="mailto:kenneth.t.miura@gmail.com">
-        <FontAwesomeIcon icon={faEnvelope} size="4x"/>
+        <FontAwesomeIcon icon={faEnvelope} size="4x" color="gray"/>
       </a>
 
     </div>

@@ -18,8 +18,8 @@ const SideNav = () => {
         <Link to="/projects">Projects</Link>
       </li>
       <div className='horiz-container'>
-        <a className="logo" href='https://www.linkedin.com/in/kenneth-miura/'>
-          <FontAwesomeIcon icon={faLinkedin} size='2x'/>
+        <a  href='https://www.linkedin.com/in/kenneth-miura/'>
+          <FontAwesomeIcon icon={faLinkedin} size='2x' color="white"/>
         </a>
         <a className="logo" href='https://github.com/kenneth-miura'>
           <FontAwesomeIcon icon={faGithub} size='2x'/>
